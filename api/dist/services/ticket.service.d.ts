@@ -1,0 +1,30 @@
+import { Repository } from 'typeorm';
+import { Ticket } from './../entities/ticket.entity';
+import { TicketStatus } from 'src/enums/ticket-status';
+import { ReceiveDto } from 'src/dto/receive-ticket.dto';
+import { UserService } from './user.service';
+import { ConstanteService } from './constante.service';
+export declare class TicketService {
+    private ticketRepository;
+    private readonly userService;
+    private readonly constanteService;
+    constructor(ticketRepository: Repository<Ticket>, userService: UserService, constanteService: ConstanteService);
+    private templateHtml;
+    private compiledTemplate;
+    create(): Promise<any>;
+    findAll(): Promise<Ticket[]>;
+    findOne(id: number): Promise<Ticket>;
+    findByAgent(agentId: number): Promise<Ticket[]>;
+    findByStatus(status: TicketStatus): Promise<Ticket[]>;
+    findWaiter(): Promise<Ticket[]>;
+    findWaiterOfDays(): Promise<Ticket[]>;
+    findByStatusOfDay(status: TicketStatus): Promise<Ticket[]>;
+    findCancelOfDay(): Promise<Ticket[]>;
+    receiveOne(body: ReceiveDto): Promise<Ticket>;
+    finishOne(body: ReceiveDto): Promise<Ticket>;
+    rejetOne(body: ReceiveDto): Promise<Ticket>;
+    cancelOne(body: ReceiveDto): Promise<Ticket>;
+    updateStatus(id: number, status: TicketStatus): Promise<Ticket>;
+    findRecivingByAndAgent(agentId: number): Promise<Ticket[]>;
+    printFile(ticket_order_number: number): Promise<void>;
+}

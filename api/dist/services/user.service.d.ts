@@ -1,0 +1,34 @@
+import { Repository } from "typeorm";
+import { User } from "../entities/user.entity";
+import { UserDto } from "src/dto/user.dto";
+import { ChangePasswordDto } from "src/dto/change-password.dto";
+import { ChangeEmailDto } from "src/dto/change-emeail.dto";
+import { JwtService } from "@nestjs/jwt";
+import { LoginRespo } from './../dto/login-respo.dto';
+import { UpdateUserDto } from "src/dto/update-user.dto";
+export declare class UserService {
+    private userRepository;
+    private readonly jwtService;
+    constructor(userRepository: Repository<User>, jwtService: JwtService);
+    create(body: UserDto): Promise<User>;
+    register(body: UserDto): Promise<LoginRespo>;
+    login({ username, password }: any): Promise<LoginRespo>;
+    updateProfile(id: number, profile: any, createur: User): Promise<User>;
+    findAll(): Promise<User[]>;
+    findOne(id: number): Promise<User>;
+    findOneByCode(code: string): Promise<User>;
+    findOneByPseudo(pseudo: string): Promise<any>;
+    countByMailOrPhone(mailOrPhone: string): Promise<number>;
+    countByEmail(mailOrPhone: string): Promise<number>;
+    countByPhone(mailOrPhone: string): Promise<number>;
+    change(id: number, updateUserDto: User): Promise<User>;
+    changePassword(body: ChangePasswordDto, user: User): Promise<string>;
+    changePhone(body: ChangePasswordDto, user: User): Promise<string>;
+    changeEmail(body: ChangeEmailDto, user: User): Promise<string>;
+    changeWithoutControle(updateUserDto: User): Promise<User>;
+    update(id: number, updateUserDto: UpdateUserDto): Promise<User>;
+    delete(id: number): Promise<import("typeorm").DeleteResult>;
+    updateAll(): Promise<User[]>;
+    remove(id: number): Promise<import("typeorm").DeleteResult>;
+    initOneAdmin(): Promise<User>;
+}
