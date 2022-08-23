@@ -1,0 +1,44 @@
+{
+  "AdminLanding": {
+    "description": "Auto imported from components/AdminLanding.vue"
+  },
+  "AdminNavigation": {
+    "description": "Auto imported from components/AdminNavigation.vue"
+  },
+  "AgentCreateForm": {
+    "description": "Auto imported from components/AgentCreateForm.vue"
+  },
+  "AgentsAccounts": {
+    "description": "Auto imported from components/AgentsAccounts.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Landing": {
+    "description": "Auto imported from components/Landing.vue"
+  },
+  "LoginForm": {
+    "description": "Auto imported from components/LoginForm.vue"
+  },
+  "Navigation": {
+    "description": "Auto imported from components/Navigation.vue"
+  },
+  "SelectedTickets": {
+    "description": "Auto imported from components/SelectedTickets.vue"
+  },
+  "ServedTickets": {
+    "description": "Auto imported from components/ServedTickets.vue"
+  },
+  "Ticket": {
+    "description": "Auto imported from components/Ticket.vue"
+  },
+  "TicketIssuer": {
+    "description": "Auto imported from components/TicketIssuer.vue"
+  },
+  "TicketQueue": {
+    "description": "Auto imported from components/TicketQueue.vue"
+  },
+  "TransferedTickets": {
+    "description": "Auto imported from components/TransferedTickets.vue"
+  }
+}

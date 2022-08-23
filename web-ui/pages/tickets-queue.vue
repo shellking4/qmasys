@@ -100,10 +100,10 @@ export default {
         .filter(
           (ticket) => (ticket.status === "RECEIVE"
           && getOnlyDate(ticket.created_at) === getOnlyDate(Date.now()))
+        )
         .map((ticket) => {
           return this.mutateTicket(ticket)
         })
-      )
     }
   }
 };

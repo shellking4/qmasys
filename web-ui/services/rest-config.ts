@@ -19,8 +19,8 @@ export const endpoints = {
 }
 
 export let authenticatedAxiosRequestConfig = (request?: any)  => {
-    //let token = localStorage.getItem("user") ? `Bearer ${JSON.parse(localStorage.getItem("user")!).token}` : ""
-    let token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc2V1ZG8iOiIrMjI5OTQ4NTE3ODUiLCJzdWIiOjEsImlhdCI6MTY1ODkzMTQ3N30.aHTSGXs9EDzF5UNMjMefbDzKN28IbZuypo6D3UeaI_o"
+    let token = localStorage.getItem("user") ? `Bearer ${JSON.parse(localStorage.getItem("user")!).token}` : ""
+    //let token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc2V1ZG8iOiIrMjI5OTQ4NTE3ODUiLCJzdWIiOjEsImlhdCI6MTY1ODkzMTQ3N30.aHTSGXs9EDzF5UNMjMefbDzKN28IbZuypo6D3UeaI_o"
     return {
         headers: {
             "content-type": "application/json",

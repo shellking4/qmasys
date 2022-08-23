@@ -24,7 +24,7 @@ export const readOutLoud = (message: string, lang: any) => {
   // Set the text and voice attributes.
   speech.text = message;
   speech.volume = 10;
-  speech.rate = 0.9;
+  speech.rate = 0.7;
   speech.pitch = 1;
   speech.lang = lang
   window.speechSynthesis.speak(speech);
