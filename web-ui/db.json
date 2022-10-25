@@ -1,0 +1,210 @@
+{
+  "agents": [
+    {
+      "id": 0,
+      "code": "Borne Ticket",
+      "username": "borneticket",
+      "password": "borneticket"
+    },
+    {
+      "id": 1,
+      "code": "Caisse N°1",
+      "username": "caissenumero1",
+      "password": "caissenumero1",
+      "status": "WAITING",
+      "agent": "shellking4@gmail.com"
+    },
+    {
+      "id": 2,
+      "code": "Caisse N°2",
+      "username": "caissenumero2",
+      "password": "caissenumero2"
+    },
+    {
+      "id": 3,
+      "code": "Caisse N°3",
+      "username": "caissenumero3",
+      "password": "caissenumero3"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "number": "A-26",
+      "code": "code-ticket1",
+      "status": "served",
+      "agent": 3
+    },
+    {
+      "id": 2,
+      "number": "A-27",
+      "code": "code-ticket2",
+      "status": "served",
+      "agent": 3
+    },
+    {
+      "id": 3,
+      "number": "A-28",
+      "code": "code-ticket2",
+      "status": "served",
+      "agent": 2
+    },
+    {
+      "id": 4,
+      "number": "A-26",
+      "code": "code-ticket3",
+      "status": "served",
+      "agent": 3
+    },
+    {
+      "id": 5,
+      "number": "A-29",
+      "code": "code-ticket4",
+      "status": "called",
+      "agent": 3
+    },
+    {
+      "id": 6,
+      "number": "A-30",
+      "code": "code-ticket5",
+      "status": "WAITING",
+      "agent": "shellking4@gmail.com"
+    },
+    {
+      "id": 7,
+      "number": "A-31",
+      "code": "code-ticket6",
+      "status": "served",
+      "agent": 3
+    },
+    {
+      "id": 8,
+      "number": "A-32",
+      "code": "code-ticket7",
+      "status": "called",
+      "agent": 3
+    },
+    {
+      "id": 9,
+      "number": "A-33",
+      "code": "code-ticket8",
+      "status": "WAITING",
+      "agent": "shellking4@gmail.com"
+    },
+    {
+      "id": 10,
+      "number": "A-34",
+      "code": "code-ticket9",
+      "status": "WAITING"
+    },
+    {
+      "id": 11,
+      "number": "A-35",
+      "code": "code-ticket10",
+      "status": "WAITING",
+      "agent": 3
+    },
+    {
+      "id": 12,
+      "number": "A-36",
+      "code": "code-ticket11",
+      "status": "WAITING"
+    },
+    {
+      "id": 13,
+      "number": "A-37",
+      "code": "code-ticket12",
+      "status": "WAITING",
+      "agent": "shellking4@gmail.com"
+    },
+    {
+      "id": 14,
+      "number": "A-38",
+      "code": "code-ticket13",
+      "status": "WAITING",
+      "agent": 2
+    },
+    {
+      "id": 15,
+      "number": "A-39",
+      "code": "code-ticket14",
+      "status": "WAITING",
+      "agent": 3
+    },
+    {
+      "id": 16,
+      "number": "A-40",
+      "code": "code-ticket15",
+      "status": "WAITING",
+      "agent": 2
+    },
+    {
+      "id": 17,
+      "number": "A-41",
+      "code": "code-ticket16",
+      "status": "WAITING",
+      "agent": 2
+    },
+    {
+      "id": 18,
+      "number": "A-42",
+      "code": "code-ticket17",
+      "status": "WAITING",
+      "agent": 2
+    },
+    {
+      "id": 19,
+      "number": "A-43",
+      "code": "code-ticket18",
+      "status": "transferred"
+    },
+    {
+      "id": 20,
+      "number": "A-44",
+      "code": "code-ticket19",
+      "status": "transferred"
+    },
+    {
+      "id": 21,
+      "number": "A-45",
+      "code": "code-ticket20",
+      "status": "WAITING",
+      "agent": 2
+    },
+    {
+      "id": 22,
+      "number": "A-46",
+      "code": "code-ticket21",
+      "status": "WAITING",
+      "agent": "shellking4@gmail.com"
+    },
+    {
+      "id": 23,
+      "number": "A-47",
+      "code": "code-ticket22",
+      "status": "called",
+      "agent": 2
+    },
+    {
+      "id": 24,
+      "number": "A-48",
+      "code": "code-ticket23",
+      "status": "called",
+      "agent": 2
+    },
+    {
+      "id": 25,
+      "number": "A-49",
+      "code": "code-ticket20",
+      "status": "WAITING",
+      "agent": 2
+    },
+    {
+      "id": 26,
+      "number": "A-50",
+      "code": "code-ticket21",
+      "status": "called",
+      "agent": 2
+    }
+  ]
+}

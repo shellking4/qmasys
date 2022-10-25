@@ -1,0 +1,72 @@
+[
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/home/shellking/Desktop/sylabs_llc/Projects/qmasys/web-ui/pages/admin/index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_78fbe19c"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/shellking/Desktop/sylabs_llc/Projects/qmasys/web-ui/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_7e6c30f3"
+  },
+  {
+    "name": "selected-tickets",
+    "path": "/selected-tickets",
+    "component": "/home/shellking/Desktop/sylabs_llc/Projects/qmasys/web-ui/pages/selected-tickets.vue",
+    "chunkName": "pages/selected-tickets",
+    "_name": "_75a52b1b"
+  },
+  {
+    "name": "served-tickets",
+    "path": "/served-tickets",
+    "component": "/home/shellking/Desktop/sylabs_llc/Projects/qmasys/web-ui/pages/served-tickets.vue",
+    "chunkName": "pages/served-tickets",
+    "_name": "_1a096796"
+  },
+  {
+    "name": "ticket-issuer",
+    "path": "/ticket-issuer",
+    "component": "/home/shellking/Desktop/sylabs_llc/Projects/qmasys/web-ui/pages/ticket-issuer.vue",
+    "chunkName": "pages/ticket-issuer",
+    "_name": "_1cf048b8"
+  },
+  {
+    "name": "tickets-queue",
+    "path": "/tickets-queue",
+    "component": "/home/shellking/Desktop/sylabs_llc/Projects/qmasys/web-ui/pages/tickets-queue.vue",
+    "chunkName": "pages/tickets-queue",
+    "_name": "_4b734d96"
+  },
+  {
+    "name": "transferred-tickets",
+    "path": "/transferred-tickets",
+    "component": "/home/shellking/Desktop/sylabs_llc/Projects/qmasys/web-ui/pages/transferred-tickets.vue",
+    "chunkName": "pages/transferred-tickets",
+    "_name": "_a5b6312c"
+  },
+  {
+    "name": "admin-agents-accounts",
+    "path": "/admin/agents-accounts",
+    "component": "/home/shellking/Desktop/sylabs_llc/Projects/qmasys/web-ui/pages/admin/agents-accounts.vue",
+    "chunkName": "pages/admin/agents-accounts",
+    "_name": "_5ec7c18f"
+  },
+  {
+    "name": "admin-register-agent",
+    "path": "/admin/register-agent",
+    "component": "/home/shellking/Desktop/sylabs_llc/Projects/qmasys/web-ui/pages/admin/register-agent.vue",
+    "chunkName": "pages/admin/register-agent",
+    "_name": "_9d46f4fe"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/shellking/Desktop/sylabs_llc/Projects/qmasys/web-ui/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_9676e448"
+  }
+]
